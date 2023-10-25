@@ -19,7 +19,10 @@ const Navbar = (props) => {
       >
         <div className="container-fluid">
           <div className="navbar-brand d-flex align-items-center gap-2">
-            <Link className="nav-link d-flex align-items-center gap-2" to="/">
+            <Link
+              className="nav-link d-flex align-items-center gap-2"
+              to="profile-cv/"
+            >
               <img src={logo} alt="logo" />
               <span id="logo-name">Saroeun Tola</span>
             </Link>

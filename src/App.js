@@ -25,13 +25,23 @@ function App() {
         <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <Routes>
           <Route
-            path="/"
+            path="profile-cv/"
             element={
               <Home darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
             }
           />
-          <Route path="/resume" element={<Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>} />
-          <Route path="/project" element={<Project darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>} />
+          <Route
+            path="/resume"
+            element={
+              <Resume darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+            }
+          />
+          <Route
+            path="/project"
+            element={
+              <Project darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+            }
+          />
         </Routes>
         <Footer darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       </BrowserRouter>
