@@ -1,0 +1,54 @@
+.main-project .row-pro{
+    padding: 0 8rem;
+    display: flex;
+    gap: 0 90px;
+    justify-content: center;
+
+
+}
+.title{
+    padding: 0 8rem;
+}
+.main-project img{
+    width: 100%px;
+    height: 331px;
+    object-fit: cover;
+}
+
+@media (max-width: 991.98px) { 
+    .main-project .row-pro{
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.title{
+    padding: 0 5rem;
+}
+.main-project img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+
+ }
+ @media (max-width: 575.98px) {
+ 
+    .main-project .row-pro{
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.title{
+    padding: 0 1.5rem;
+}
+
+.main-project img{
+    width: 100%;
+    height: 200px;
+}
+}

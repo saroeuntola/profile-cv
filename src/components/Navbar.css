@@ -1,0 +1,101 @@
+.navbar-brand #logo-name{
+    font-weight: bold; 
+    font-size: 20pt;
+    
+}
+nav.dark{
+    background-color: rgb(51, 51, 51);
+}
+nav.dark .navbar-toggler-icon{
+    color: white;
+}
+nav.dark .navbar-brand span{
+    font-size: 12pt;
+    color: white;
+    
+}
+.navbar-brand span{
+    font-size: 12pt;
+}
+nav.dark .navbar-brand h3{
+    font-weight: bold; 
+    font-size: 20pt;
+    color: white;
+
+}
+.navbar-nav .nav-link{
+    color: rgb(0, 0, 0);
+}
+nav.dark .navbar-nav .nav-link{
+    color: white;
+}
+nav.dark .icon-dark-mode{
+    color: white;
+    font-size: 20pt;
+}
+.icon-dark-mode{
+    font-size: 20pt;
+    cursor: pointer;
+}
+.icon-dark-mode span{
+    font-size: 13pt;
+    cursor: pointer;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.navbar{
+    box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.89);    
+}
+.navbar.dark{
+    box-shadow: 1px 1px 5px rgba(120, 119, 119, 0.89);
+    
+}
+.navbar-nav .nav-link{
+    font-size: 14pt;
+}
+.nav-item .nav-link{
+    font-size: 1.1rem;
+}
+
+@media (max-width: 575.98px) {
+    .navbar-brand #job-title{
+        display: none;
+    }
+    .navbar-brand #logo-name{
+        font-size: 15px;
+    }
+    .navbar-brand img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+nav.dark .navbar-brand h3{
+        font-size: 15px;
+        margin-top: 8px;
+
+    }
+}
+nav.dark #menu-icon{
+    background-color: rgb(212, 212, 212);
+    
+}
+#menu-icon{
+    background-color: rgb(211, 211, 211);
+    
+}
+#menu-icon:hover{
+    background-color: rgb(20, 159, 218);
+    transition: 0.5s;
+}
+nav.dark #menu-icon:hover{
+    background-color: rgb(20, 159, 218);
+    transition: 0.5s;
+}
+
+#menu-icon{
+    font-size: 12px;
+    
+}

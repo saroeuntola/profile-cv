@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding-top: 11rem;
+    padding-bottom: 10rem;
+}
+@media (max-width: 991.98px) { 
+    .container{
+        
+        padding-bottom: 5rem;
+    }
+    
+ }
+@media (max-width: 575.98px) {
+    .container{
+        padding-top: 6rem;
+    }
+}
+ 
+footer.dark{
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+main.dark{
+    color: white;
+    background-color: rgb(16, 16, 16);
+}
+
+
+
+
