@@ -12,6 +12,21 @@
     width: 500px
 }
 
+.title-head .btn-download{
+    background-color:  green;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-download:hover {
+    background-color:  rgb(25, 55, 192);
+    transition: .5s;
+}
+.btn-download a{
+    color: white;
+    text-decoration: none;
+}
 
 @media (max-width: 991.98px) { 
     .row-item1, .row-item2, .row-item3, .row-item4,.row-item5{

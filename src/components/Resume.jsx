@@ -5,16 +5,19 @@ const Resume = (props) => {
     <main className={props.darkMode ? "dark" : ""}>
       <div className="container main-resume ">
         <div className="row work-exp">
-          <h1>Resume</h1>
-          <h2>Download My Resume</h2>
-          <button className='btn-download'>
-            <a
-              href="https://drive.google.com/file/d/13r_O1i3u6lKjAwJ6a43Zfa8D5ok-lLyJ/view?usp=sharing"
-              target="blank"
-            >
-              Download Now
-            </a>
-          </button>
+          <div className="title-head">
+            <h1>Resume</h1>
+            <h2>Download My Resume</h2>
+            <button className="btn-download">
+              <a
+                href="https://drive.google.com/file/d/13r_O1i3u6lKjAwJ6a43Zfa8D5ok-lLyJ/view?usp=sharing"
+                target="blank"
+              >
+                Download Now
+              </a>
+            </button>
+          </div>
+
           <div className="mt-5 col-lg-6 col-md-12 col-sm-12">
             <h3>Work</h3>
             <h3>Experience</h3>

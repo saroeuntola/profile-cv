@@ -48,7 +48,7 @@ const Navbar = (props) => {
           >
             <ul className="navbar-nav mt-3 mt-lg-0">
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="profile-cv/">
                   Home
                 </Link>
               </li>
