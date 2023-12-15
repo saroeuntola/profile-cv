@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/Navbar.css";
-import logo from "./image/logo.jpg";
+import logos from "./image/Logos.jpg";
 import { Link } from "react-router-dom";
 import { FaToggleOn, FaToggleOff } from "react-icons/fa";
 
@@ -23,7 +23,7 @@ const Navbar = (props) => {
               className="nav-link d-flex align-items-center gap-2"
               to="profile-cv/"
             >
-              <img src={logo} alt="logo" />
+              <img src={logos} alt="logo" />
               <span id="logo-name">Saroeun Tola</span>
             </Link>
             <span id="job-title">| Web Developer</span>
@@ -68,7 +68,7 @@ const Navbar = (props) => {
               className="icon-dark-mode ps-lg-5 d-flex align-items-center flex-row-reverse float-md-start float-sm-start gap-3 px"
               onClick={ChangeIconDarkModeToggle}
             >
-              {props.darkMode ? <FaToggleOn /> : <FaToggleOff />}
+              {props.darkMode ? <FaToggleOn color="blue" /> : <FaToggleOff />}
               <span>DarkMode</span>
             </div>
           </div>

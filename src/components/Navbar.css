@@ -99,3 +99,8 @@ nav.dark #menu-icon:hover{
     font-size: 12px;
     
 }
+ @media (max-width: 575.98px) {
+    .icon-dark-mode{
+        float: left;
+    }
+}

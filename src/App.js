@@ -4,8 +4,10 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Resume from "./components/Resume";
-import Project from "./components/Project";
 import { useState, useEffect } from "react";
+import Project from "./components/Project";
+import Contact from "./components/Contact";
+
 
 function App() {
   const [darkMode, setDarkMode] = useState (localStorage.getItem("darkMode") === "true");
@@ -40,6 +42,12 @@ function App() {
             path="/project"
             element={
               <Project darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <Contact darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
             }
           />
         </Routes>

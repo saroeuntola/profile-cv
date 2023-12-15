@@ -10,7 +10,7 @@ const Resume = (props) => {
             <h2>Download My Resume</h2>
             <button className="btn-download">
               <a
-                href="https://drive.google.com/file/d/13r_O1i3u6lKjAwJ6a43Zfa8D5ok-lLyJ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1OXYBiwbMSaB__x2wUCstwKajLLCQMEDd/view?usp=sharing"
                 target="blank"
               >
                 Download Now

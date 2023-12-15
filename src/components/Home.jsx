@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './image/logo.jpg'
+import Logos from './image/Logos.jpg'
 import './Home.css';
 import { Link } from 'react-router-dom';
 const Home = (props) => {
@@ -8,7 +8,7 @@ const Home = (props) => {
       <div className="container">
         <div className="main-home">
           <div className="item-left">
-            <img src={Logo} alt="logo" />
+            <img src={Logos} alt="logo" />
           </div>
           <div className="item-right">
             <h1>Hello</h1>
